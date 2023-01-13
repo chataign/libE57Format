@@ -88,6 +88,7 @@ option( E57_MAX_DEBUG  "Compile library with maximum debug checking" OFF )
 option( E57_VERBOSE      "Compile library with verbose logging" OFF )
 option( E57_MAX_VERBOSE  "Compile library with maximum verbose logging" OFF )
 
+set(E57_DEBUG 1)
 set(E57_VERBOSE 1)
 set(E57_MAX_VERBOSE 1)
 
