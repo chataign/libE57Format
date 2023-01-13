@@ -313,15 +313,15 @@ namespace e57
          }
       }
 #ifdef E57_MAX_VERBOSE
-      if ( earliestPacketLogicalOffset == E57_UINT64_MAX )
-      {
-         std::cout << "earliestPacketNeededForInput returning none found" << std::endl;
-      }
-      else
-      {
-         std::cout << "earliestPacketNeededForInput returning " << earliestPacketLogicalOffset
-                   << " for channel[" << earliestChannel << "]" << std::endl;
-      }
+      // if ( earliestPacketLogicalOffset == E57_UINT64_MAX )
+      // {
+      //    std::cout << "earliestPacketNeededForInput returning none found" << std::endl;
+      // }
+      // else
+      // {
+      //    std::cout << "earliestPacketNeededForInput returning " << earliestPacketLogicalOffset
+      //              << " for channel[" << earliestChannel << "]" << std::endl;
+      // }
 #endif
       return earliestPacketLogicalOffset;
    }
