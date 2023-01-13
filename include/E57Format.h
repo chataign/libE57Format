@@ -38,6 +38,11 @@
 
 #include "E57Exception.h"
 
+#define E57_DEBUG true
+#define E57_MAX_DEBUG true
+#define E57_VERBOSE true
+#define E57_MAX_VERBOSE true
+
 namespace e57
 {
    using std::int16_t;
