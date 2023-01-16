@@ -35,6 +35,14 @@
 #include <memory>
 #include <vector>
 
+#ifndef E57_DEBUG
+#define E57_DEBUG 1
+#endif
+
+#ifndef E57_VERBOSE
+#define E57_VERBOSE 1
+#endif
+
 #include "E57Exception.h"
 
 namespace e57
